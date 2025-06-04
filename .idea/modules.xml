@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/eq_bid_ask.iml" filepath="$PROJECT_DIR$/.idea/eq_bid_ask.iml" />
+      <module fileurl="file://$USER_HOME$/Documents/micro_trading/roll_spread_calculator/.idea/roll_spread_calculator.iml" filepath="$USER_HOME$/Documents/micro_trading/roll_spread_calculator/.idea/roll_spread_calculator.iml" />
     </modules>
   </component>
 </project>
