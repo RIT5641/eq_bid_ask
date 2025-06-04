@@ -33,10 +33,10 @@ class cope_galai_cal:
         ask = mu + spread_equilibrium / 2
         bid = mu - spread_equilibrium / 2
 
-        print(f"Spread de equilibrio: {spread_equilibrium:.4f}")
-        print(f"Precio Ask: {ask:.4f}")
-        print(f"Precio Bid: {bid:.4f}")
-        return ask, bid
+        #print(f"Spread de equilibrio: {spread_equilibrium:.4f}")
+        #print(f"Precio Ask: {ask:.4f}")
+        #print(f"Precio Bid: {bid:.4f}")
+        return ask, bid, spread_equilibrium
 
     def bid_ask_exp_dist(self, lambda_value:float=0.5, pi:float=0.3):
         # Desarrollar
@@ -59,9 +59,9 @@ class cope_galai_cal:
         ask = EV + spread_equilibrium / 2
         bid = EV - spread_equilibrium / 2
 
-        print(f"Spread de equilibrio: {spread_equilibrium:.4f}")
-        print(f"Precio Ask: {ask:.4f}")
-        print(f"Precio Bid: {bid:.4f}")
+        #print(f"Spread de equilibrio: {spread_equilibrium:.4f}")
+        #print(f"Precio Ask: {ask:.4f}")
+        #print(f"Precio Bid: {bid:.4f}")
         return ask, bid, spread_equilibrium
 
 

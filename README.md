@@ -29,7 +29,7 @@ $]
 1. Crear entorno virtual (opcional):
 ```bash
 python -m venv venv
-source venv/bin/activate  # o venv\Scripts\activate en Windows
+source venv/bin/activate  # venv\Scripts\activate en Windows
 ```
 
 2. Instalar requerimientos:
