@@ -11,7 +11,7 @@ El objetivo principal de este proyecto es el de tomar una acción listada en la 
 
 ## Teoría
 
-### Supuestos principales:
+### Supuestos:
 - El valor fundamental del activo es una variable aleatoria (normal o exponencial).
 - El market maker no sabe si el trader es informado o no.
 - Con probabilidad $( \phi $), el trader está informado.
@@ -26,7 +26,7 @@ $]
 
 ## Cómo ejecutar
 
-1. Crear entorno virtual (opcional):
+1. Crear entorno virtual:
 ```bash
 python -m venv venv
 source venv/bin/activate  # venv\Scripts\activate en Windows
@@ -42,6 +42,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
-4. Abrir `report.ipynb` para ver visualizaciones y comparaciones.
+4. Abrir `report.ipynb` para ver las visualizaciones y comparaciones.
 
 ---

@@ -6,7 +6,7 @@ class cope_galai_cal:
     def __init__(self):
         pass
 
-    def bid_ask_norm_dist(self, mu:float=100, sigma:float=5, pi:float=0.3):
+    def bid_ask_norm_dist(self, mu:float, sigma:float, pi:float):
         #mu = 100    # Valor medio del activo
         #sigma = 10  # Desviación estándar del valor
         #pi = 0.3    # Prob trader informado
